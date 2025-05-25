@@ -1,0 +1,110 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+	    <title>CAS &#8211; Central Authentication Service</title>
+        
+           
+           
+                
+                <link type="text/css" rel="stylesheet" href="/cas/css/cas.css" />
+           
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	    <link rel="icon" href="/cas/favicon.ico" type="image/x-icon" />
+	</head>
+	<body id="cas" class="fl-theme-iphone">
+    <div class="flc-screenNavigator-view-container">
+        <div class="fl-screenNavigator-view">
+            <div id="header" class="flc-screenNavigator-navbar fl-navbar fl-table">
+				<a id="reset-password" href="https://www.finki.ukim.mk/studentlogin.reset" >
+					</a>					
+            </div>		
+            <div id="content" class="fl-screenNavigator-scroll-container">
+
+
+
+
+  <div class="box fl-panel" id="login">
+            <h1>Central Authentication Service (CAS) </h1>
+			<form id="fm1" class="fm-v clearfix" action="/cas/login?service=https%3A%2F%2Fcourses.finki.ukim.mk%2Flogin%2Findex.php" method="post">
+                  
+                 
+                    <div class="row fl-controls-left">
+                        <label for="username" class="fl-label"><span class="accesskey">U</span>sername:</label>
+						
+
+						
+						
+						<input id="username" name="username" class="required" tabindex="1" accesskey="n" type="text" value="" size="25" autocomplete="false"/>
+						
+                    </div>
+                    <div class="row fl-controls-left">
+                        <label for="password" class="fl-label"><span class="accesskey">P</span>assword:</label>
+						
+						
+						<input id="password" name="password" class="required" tabindex="2" accesskey="p" type="password" value="" size="25" autocomplete="off"/>
+                    </div>
+                    <div class="row check">
+                        <input id="warn" name="warn" value="true" tabindex="3" accesskey="w" type="checkbox" />
+                        <label for="warn"><span class="accesskey">W</span>arn me before logging me into other sites.</label>
+                    </div>
+                    <div class="row btn-row">
+						<input type="hidden" name="lt" value="LT-120347-QFlmEUZndYSbWXhtwa3GaLYXaK11wM" />
+						<input type="hidden" name="execution" value="e1s1" />
+						<input type="hidden" name="_eventId" value="submit" />
+
+                        <input class="btn-submit" name="submit" accesskey="l" value="LOGIN" tabindex="4" type="submit" />
+                        <input class="btn-reset" name="reset" accesskey="c" value="CLEAR" tabindex="5" type="reset" />
+                    </div>
+            </form>
+          </div>
+            <div id="sidebar">
+                <p class="fl-panel fl-note fl-bevel-white fl-font-size-80">For security reasons, please Log Out and Exit your web browser when you are done accessing services that require authentication!</p>
+                <p class="fl-panel fl-note fl-bevel-white fl-font-size-80"><p>For password reset, login problem or technical assistance, visit <a href="http://www.students.finki.ukim.mk" title="Services for Students of the FCSE">Services for Students of the FCSE</a>.</p><p>The Central Authentication Servis enables login to multiple web sites with a single input of your FCSE username and password. After your credentials are checked succesfully, you are given a ticket to use for login to all web sites that CAS. <b>Pay attention: the login ticked is held within your browsers temporary memory until you close all browser windows (or deliberately delete browsers privacy settings and session).</b></p><p>This service is to be used only by students and employees of the FCSE. The username for students is the dossier number (students from the FNSM have a dossier number in the form 12345 , and for students from the FEEIT in the form 123410).  </p></p>
+                <div id="list-languages" class="fl-panel">
+                
+					
+                    
+                  <h3>Languages:</h3>
+                  
+                     
+                     
+                        
+						<ul
+							><li class="first"><a href="login?service=https%3A%2F%2Fcourses.finki.ukim.mk%2Flogin%2Findex.php&locale=en">English</a></li
+                            ><li class="last"><a href="login?service=https%3A%2F%2Fcourses.finki.ukim.mk%2Flogin%2Findex.php&locale=mk">Macedonian</a></li
+						></ul>
+                     
+                   
+                </div>
+            </div>
+
+
+
+</div>
+                <div id="footer" class="fl-panel fl-note fl-bevel-white fl-font-size-80">
+                	<a id="jasig" href="http://www.jasig.org" title="go to Jasig home page"></a>
+                    <div id="copyright">
+                        <p>Copyright &copy; 2005 - 2012 Jasig, Inc. All rights reserved.</p>
+                        <p>Powered by <a href="http://www.jasig.org/cas">Jasig Central Authentication Service 3.5.2</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/cas/js/cas.js"></script>
+    </body>
+</html>
+
